@@ -12,14 +12,9 @@
     }
 
 
-    .element-info_section{
-        visibility: visible;
-        height: 110vh;
-        /* background-color: rgba(140, 140, 140, 0.5); */
-        z-index: 1;
-    }
+
     div.element-characteristics{
-        height: 70vh;
+        height: 600px;
     }
 
     .periodic-table-footer{
@@ -29,4 +24,10 @@
 
 }
 
+@media screen and (max-height: 800px) {
+    .periodic-table-footer{
+        padding-top: 1000px;
+    }
+
+}
 
